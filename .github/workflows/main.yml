@@ -14,4 +14,4 @@ jobs:
           node-version: "16"
 
       - name: Initialize
-        uses: ./.github/common/build
+        uses: ./.github/actions/build
