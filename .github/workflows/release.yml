@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: "16"
       - name: Initialize
-        uses: ./.github/actions/build
+        uses: ./.github/common/build
       - name: export static html
         run: npm run export
       - name: Deploy
