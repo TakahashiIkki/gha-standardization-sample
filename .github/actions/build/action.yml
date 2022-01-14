@@ -11,5 +11,5 @@ runs:
       shell: bash
     # TODO: test
     - name: Run build
-      run: npm run build
+      run: npm run build:prod
       shell: bash
