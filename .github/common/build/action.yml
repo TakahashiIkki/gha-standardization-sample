@@ -1,5 +1,3 @@
-name: "next pre build process"
-description: ""
 runs:
   using: "composite"
   steps:
